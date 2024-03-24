@@ -15,11 +15,11 @@ module.exports = {
             // –env参数指定运行的环境
             env: {
                 NODE_ENV: "development",
-                PORT: 8002,
+                PORT: 8018,
             },
             env_production: {
                 NODE_ENV: 'production',
-                PORT: 8002,
+                PORT: 8018,
             },
             watch: true,
             ignore_watch: ["node_modules"]
